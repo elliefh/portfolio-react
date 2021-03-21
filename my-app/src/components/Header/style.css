@@ -1,0 +1,8 @@
+.Header {
+    margin-bottom: 0;
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+}
