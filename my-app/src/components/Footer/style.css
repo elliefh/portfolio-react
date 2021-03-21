@@ -1,7 +1,13 @@
 .Footer {
-    background-color: #270400;
-    /* display: flex;
-    justify-content: center; */
-    position: absolute;
+    background-color: #343a40;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
     bottom: 0;
+}
+
+p {
+    align-content: center;
+    margin: 16px;
 }
