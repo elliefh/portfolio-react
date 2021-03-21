@@ -1,3 +1,18 @@
 .submitBtn {
     background-color: #546a8b;
 }
+
+h3 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

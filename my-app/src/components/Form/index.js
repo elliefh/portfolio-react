@@ -11,18 +11,41 @@ import './style.css';
 
 function MyContactForm() {
     return (
-    <div>
-        <Row>
-            <Col sm={8}>
-                Connect with me through Github, Email, LinkedIn, or Phone; You can also reach out to me through the form below!
+    <div className="contact-form">
+        <Row className="justify-content-md-center">
+            <h3>Questions or Comments? <br></br>
+            Reach out to me through the form below or connect with me through Github, Linkedin, Email or Phone.</h3>
+        </Row>
+        <Row className="justify-content-center">
+            <Col sm={10}>
+                <Form>
+                <Form.Group controlId="exampleForm.ControlInput1">
+                    <Form.Label>Your Name</Form.Label>
+                    <Form.Control type="text" placeholder="" />
+                </Form.Group>            
+                <Form.Group controlId="exampleForm.ControlInput2">
+                    <Form.Label>Your Email</Form.Label>
+                    <Form.Control type="email" placeholder="" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Your Inquiry/Message</Form.Label>
+                    <Form.Control as="textarea" rows={3} />
+                </Form.Group>
+                <Button variant="primary" type="submit" className="submitBtn align-self-flex-end">
+                    Submit
+                </Button>
+                </Form>
             </Col>
+        </Row>
+
+        <Row className="icons justify-content-md-center">
             <Col sm={1}>
                 <Button variant="link" href="https://github.com/elliefh" target="_blank"> 
                     <img src= {GithubIcon} alt="logo" height="40px" width="40px"/>
                 </Button>
             </Col>
             <Col sm={1}>
-                <Button variant="link" href="#">
+                <Button variant="link" href="mailto:elliefh@uw.edu">
                 <img src= {EmailIcon} alt="logo"height="40px" width="40px"/>
                 </Button>
             </Col>
@@ -32,32 +55,11 @@ function MyContactForm() {
                 </Button>
             </Col>
             <Col sm={1}>
-                <Button variant="link" href="#">
+                <Button variant="link" href="tel:406-518-1203‬">
                     <img src= {PhoneIcon} alt="logo"height="40px" width="40px"/>
                 </Button>
             </Col>
         </Row>
-        <Form>
-            <Form.Group controlId="exampleForm.ControlInput1">
-            <Form.Label>Your Name</Form.Label>
-            <Form.Control type="text" placeholder="" />
-            </Form.Group>            
-
-            <Form.Group controlId="exampleForm.ControlInput2">
-            <Form.Label>Your Email</Form.Label>
-            <Form.Control type="email" placeholder="" />
-            </Form.Group>
-            
-            <Form.Group controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Your Inquiry/Message</Form.Label>
-            <Form.Control as="textarea" rows={3} />
-            </Form.Group>
-
-            <Button variant="primary" type="submit" className="submitBtn">
-            Submit
-            </Button>
-
-        </Form>
     </div>
 )}
 
