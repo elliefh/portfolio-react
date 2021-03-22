@@ -5,7 +5,7 @@ import './style.css';
 
 function MyCarousel(props) {
     return(
-    <Carousel>
+    <Carousel className="carousel">
 
         <Carousel.Item>
             <img
