@@ -1,16 +1,16 @@
 
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
 import './style.css';
 
 function MyProject(props) {
     return(
-        <div className="project">
-            <Row className="d-flex justify-content-center" xs={1} md={2}>
+       <Row className="highlighted-project">
                 <Col>
-                    <Card style={{ width: '35rem'}}>
+                    <Card style={{ width: '100%'}}>
                     <Card.Img variant="top" src={props.image} wdith="400" height="200"/>
                     <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
@@ -22,8 +22,7 @@ function MyProject(props) {
                     </Card.Body>
                     </Card>
                 </Col>
-            </Row>
-        </div>
+        </Row>
     )
 }
 
