@@ -39,26 +39,22 @@ function MyContactForm() {
         </Row>
 
         <Row className="icons justify-content-md-center">
-            <Col sm={1}>
                 <Button variant="link" href="https://github.com/elliefh" target="_blank"> 
                     <img src= {GithubIcon} alt="logo" height="40px" width="40px"/>
                 </Button>
-            </Col>
-            <Col sm={1}>
+
                 <Button variant="link" href="mailto:elliefh@uw.edu">
                 <img src= {EmailIcon} alt="logo"height="40px" width="40px"/>
                 </Button>
-            </Col>
-            <Col sm={1}>
+
                 <Button variant="link" href="https://www.linkedin.com/in/ellie-fu-138ba3208/" target="_blank">
                     <img src= {LinkedinIcon} alt="logo"height="40px" width="40px"/>
                 </Button>
-            </Col>
-            <Col sm={1}>
+
                 <Button variant="link" href="tel:406-518-1203‬">
                     <img src= {PhoneIcon} alt="logo"height="40px" width="40px"/>
                 </Button>
-            </Col>
+
         </Row>
     </div>
 )}
