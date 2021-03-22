@@ -8,9 +8,9 @@ import './style.css';
 function MyProject(props) {
     return(
         <div className="project">
-            <Row>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
+            <Row className="d-flex justify-content-center">
+                {/* <Col> */}
+                    <Card style={{ width: '60rem'}}>
                     <Card.Img variant="top" src={props.image} wdith="400" height="200"/>
                     <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
@@ -21,7 +21,7 @@ function MyProject(props) {
                     <Card.Link href={props.liveLink}>Live Application</Card.Link>
                     </Card.Body>
                     </Card>
-                </Col>
+                {/* </Col> */}
             </Row>
         </div>
     )
