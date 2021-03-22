@@ -8,16 +8,13 @@ function About() {
     return(
         <Container>
             <Row className = "d-flex justify-content-center">
-                <h3>About Me</h3>
+                <p className = "page-title">About Me</p>
             </Row>
             <Row className = "d-flex justify-content-center">
                 <img src = {AboutMeGif} alt="gif" width="200" height="200"/>          
             </Row>
             <Row className = "d-flex justify-content-center">
                 <Col className = "d-flex justify-content-center" xs={6}>
-                    {/* <img src = {AboutMeGif} alt="gif" width="250" height="250"/> */}
-                {/* </Col>
-                <Col> */}
                     <p className="text-center">Hello and thank you for visiting my website!<br/><br/>
                     My name is Ellie and I am currently pursuing a full stack web development certificate through the University of Washington's Coding Bootcamp Program. I am also a student at the Academy of Art University pursuing my MFA. 
                     <br/><br/>
@@ -25,7 +22,7 @@ function About() {
                     </p>
                 </Col>
             </Row>
-        </Container>        
+        </Container>    
     )
 }
 

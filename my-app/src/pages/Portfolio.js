@@ -8,12 +8,11 @@ import CocktailGeneratorImg from '../images/cocktailgenerator.png';
 import FeastWithFriendsImg from '../images/feastwithfriends.png';
 import WorkDayPlannerImg from '../images/workdayplanner.png';
 
-
 function Portfolio(props) {
     const projects = [
         {
             name: "Employee Directory",
-            description: "An application that allows an employee or manager to view, sort, and filter non-sensitive data about other employees",
+            description: "An application that allows an employee or manager to view, sort, and filter non-sensitive data about other employees.",
             image: "/static/media/employee-directory.766cdf98.png",
             languages: "HTML, CSS, JavaScript, Node.js, ReactJS, Random User API",
             repoLink: "https://github.com/elliefh/employee-directory",
@@ -78,7 +77,7 @@ function Portfolio(props) {
 
     return(
         <Container className="d-flex flex-wrap justify-content-center">
-            <h3>Highlighted Projects</h3>
+            <p className = "page-title">Highlighted Projects</p>
             {projects.map(project => (
             <MyProject
                 key = {project.id}

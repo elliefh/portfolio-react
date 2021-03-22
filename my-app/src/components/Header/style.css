@@ -4,15 +4,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Nothing You Could Do', cursive;
+    height: 200px;
 }
 
-.Content {
+/* .Content {
     display: flex;
     justify-content: center;
-}
+} */
 
 h1 {
     /* background-color: beige; */
     padding: 2px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
 }

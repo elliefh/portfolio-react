@@ -1,14 +1,13 @@
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
 import "./style.css";
 
 function MyHeader() {
     return(
-        <Jumbotron className="Header">
-            <Container className="Content">
-                <h1>Ellie Fu-Hinthorn</h1>
+        <div className="Header d-flex">
+            <Container className="align-self-center">
+                <h1 className="text-center">Ellie Fu-Hinthorn</h1>
             </Container>
-        </Jumbotron>
+        </div>
     )
 }
 

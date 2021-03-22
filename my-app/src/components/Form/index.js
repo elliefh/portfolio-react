@@ -13,7 +13,7 @@ function MyContactForm() {
     return (
     <div className="contact-form">
         <Row className="justify-content-center">
-            <h3>Questions or Comments?</h3>
+            <p className = "page-title">Questions or Comments?</p>
         </Row>
         <p className="text-center">Reach out to me through the form below or connect with me through Github, Linkedin, Email or Phone.</p>
         <Row className="justify-content-center">

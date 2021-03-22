@@ -13,12 +13,14 @@ function MyProject(props) {
                     <Card style={{ width: '100%'}}>
                     <Card.Img variant="top" src={props.image} wdith="400" height="200"/>
                     <Card.Body>
-                    <Card.Title>{props.name}</Card.Title>
-                    <Card.Text>
-                        {props.description} <br/> Langugages used: {props.languages}
+                    <Card.Title className="text-center">{props.name}</Card.Title>
+                    <Card.Text className="text-center">
+                        {props.description} <br/> Programming langugages: {props.languages}
                     </Card.Text>
+                    <Row className="justify-content-center">
                     <Card.Link href={props.repoLink}>Repository</Card.Link>
                     <Card.Link href={props.liveLink}>Live Application</Card.Link>
+                    </Row>
                     </Card.Body>
                     </Card>
                 </Col>
