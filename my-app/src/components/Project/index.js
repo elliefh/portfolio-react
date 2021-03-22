@@ -3,7 +3,6 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-
 import './style.css';
 
 function MyProject(props) {
@@ -11,7 +10,7 @@ function MyProject(props) {
        <Row className="highlighted-project">
                 <Col>
                     <Card style={{ width: '100%'}}>
-                    <Card.Img variant="top" src={props.image} wdith="400" height="200"/>
+                    <Card.Img variant="top" src={props.image} className="project-screenshot"/>
                     <Card.Body>
                     <Card.Title className="text-center">{props.name}</Card.Title>
                     <Card.Text className="text-center">
