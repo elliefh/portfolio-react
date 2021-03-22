@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { HashRouter, Route } from "react-router-dom";
 import './App.css';
 import About from "./pages/About";
@@ -12,7 +12,7 @@ import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/portfolio-react">
     <MyHeader/>
     <MyNavbar/>
     <Container>
