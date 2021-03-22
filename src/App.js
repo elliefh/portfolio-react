@@ -1,6 +1,6 @@
-import React from "react";
+import React, { Component } from 'react';
+import { HashRouter, Route } from "react-router-dom";
 import './App.css';
-import { HashRouter, HashRouter as Router } from 'react-router-dom';
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -12,13 +12,13 @@ import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
     <MyHeader/>
     <MyNavbar/>
     <Container>
-        <Router exact path="/" component={About} />
-        <Router exact path="/portfolio" component={Portfolio} />
-        <Router exact path="/contact" component={Contact} />
+        <Route exact path="/" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
     </Container>
     <Footer/>
     </HashRouter>
