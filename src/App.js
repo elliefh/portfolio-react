@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, HashRouter, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -11,7 +11,7 @@ import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Router>
     <MyHeader/>
     <MyNavbar/>
     <Container>
@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
     </Container>
     <Footer/>
-    </BrowserRouter>
+    </Router>
   );
 }
 
