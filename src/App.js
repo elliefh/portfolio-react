@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route } from "react-router-dom";
 import './App.css';
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -9,10 +9,10 @@ import MyNavbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Container from "react-bootstrap/Container";
 
-
 function App() {
   return (
-    <HashRouter basename="/portfolio-react">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    {/* < basename="/portfolio-react"> */}
     <MyHeader/>
     <MyNavbar/>
     <Container>
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
     </Container>
     <Footer/>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
