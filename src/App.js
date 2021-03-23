@@ -12,7 +12,6 @@ import Container from "react-bootstrap/Container";
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-    {/* < basename="/portfolio-react"> */}
     <MyHeader/>
     <MyNavbar/>
     <Container>
