@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.c6350982.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.3eed2e83.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.3eed2e83.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.23bef3da.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.af4e73ca.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.af4e73ca.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.0a9b6312.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.0a9b6312.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio-react/static/css/2.4c97ca4f.chunk.css",
@@ -12,12 +12,13 @@
     "static/js/3.35440132.chunk.js.map": "/portfolio-react/static/js/3.35440132.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/portfolio-react/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.c6350982.chunk.css.map": "/portfolio-react/static/css/main.c6350982.chunk.css.map",
+    "static/css/main.23bef3da.chunk.css.map": "/portfolio-react/static/css/main.23bef3da.chunk.css.map",
     "static/js/2.cc5328e1.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.cc5328e1.chunk.js.LICENSE.txt",
     "static/media/aboutme.6b97e5f9.gif": "/portfolio-react/static/media/aboutme.6b97e5f9.gif",
     "static/media/cocktailgenerator.464457c2.png": "/portfolio-react/static/media/cocktailgenerator.464457c2.png",
     "static/media/employee-directory.766cdf98.png": "/portfolio-react/static/media/employee-directory.766cdf98.png",
     "static/media/feastwithfriends.6e52a72d.png": "/portfolio-react/static/media/feastwithfriends.6e52a72d.png",
+    "static/media/googlebook.5748fd89.png": "/portfolio-react/static/media/googlebook.5748fd89.png",
     "static/media/notetaker.52fe732f.png": "/portfolio-react/static/media/notetaker.52fe732f.png",
     "static/media/weatherdashboard.6a2acb3d.png": "/portfolio-react/static/media/weatherdashboard.6a2acb3d.png",
     "static/media/workdayplanner.f48ff501.png": "/portfolio-react/static/media/workdayplanner.f48ff501.png"
@@ -26,7 +27,7 @@
     "static/js/runtime-main.0a9b6312.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.cc5328e1.chunk.js",
-    "static/css/main.c6350982.chunk.css",
-    "static/js/main.3eed2e83.chunk.js"
+    "static/css/main.23bef3da.chunk.css",
+    "static/js/main.af4e73ca.chunk.js"
   ]
 }
