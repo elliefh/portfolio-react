@@ -5,5 +5,5 @@
 .project-screenshot {
     height: 300px;
     object-fit: cover;
-    opacity: 80%;
+    opacity: 0.80;
 }
