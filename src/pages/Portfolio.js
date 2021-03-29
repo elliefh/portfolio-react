@@ -7,9 +7,19 @@ import WeatherDashboardImg from '../images/weatherdashboard.png';
 import CocktailGeneratorImg from '../images/cocktailgenerator.png';
 import FeastWithFriendsImg from '../images/feastwithfriends.png';
 import WorkDayPlannerImg from '../images/workdayplanner.png';
+import GoogleBookImg from '../images/googlebook.png';
 
 function Portfolio(props) {
     const projects = [
+        {
+            name: "Google Books",
+            description: "An application that allows users to search, view, save and delete books using Google Books API.",
+            image: GoogleBookImg, 
+            languages: "HTML, CSS, JavaScript, Node.js, ReactJS, Express, MongoDB",
+            repoLink: " https://github.com/elliefh/google-book",
+            liveLink: "https://googlebooks-efh.herokuapp.com/#/",
+            id: "project-7"
+        },
         {
             name: "Employee Directory",
             description: "An application that allows an employee or manager to view, sort, and filter non-sensitive data about other employees.",
